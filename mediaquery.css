@@ -1,0 +1,124 @@
+/* body{
+    font:18px;
+    background-color: green;
+    color:black
+}
+@media (max-width:600px){
+    body{
+        background-color: lightblue;
+        font-size: 14px;
+    }
+    h1{
+        background-color: red;
+    }
+}
+@media (max-width:400px){
+     body{
+        background-color: lightblue;
+        font-size: 14px;
+    }
+
+}
+@media (max-width:768px) and (max-width:500px){
+    body{
+        background-color: lightcoral;
+    }
+}
+/* here the comma means OR
+
+@media (max-width:480px) , (max-height:300px) {
+    body{
+        background-color: lightgreen;
+    }
+    
+}
+
+ Potrait 
+@media(orientation: landscape){
+    body{
+        background-color: red;
+    }
+} 
+*/
+
+
+
+/* Have the default body colo be white 
+Add 3 breakpoints that the background colour changes
+1)Tablet potrait
+2)Mobile Portrait
+3)Ultra small (short or narrow screen 
+)*/
+
+/* body{
+    background-color:white ;  
+}
+@media(orientation: portrait){
+    body{
+        background-color: lightblue;
+    }
+}
+@media(orientation: portrait){
+    body{
+        background-color: lightblue;
+    }
+} */
+
+.hero{
+    height:90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+    background-image: 
+    linear-gradient(to right, #004e92, #000428);
+    color: white;
+}
+
+/* Scalling up, desktop to mobile */
+@media (max-width:768px) {
+    .hero h1{
+        font-size: 3rem;
+    }
+
+    .hero p{
+        font-size: 1.4rem;
+    }
+
+    .hero{
+        height: 90vh;
+        padding: 2rem;
+    }
+}
+
+@media (min-width:1024px) {
+    .hero h1{
+        font-size: 5rem;
+    }
+
+    .hero p{
+        font-size: 1.6rem;
+    }
+}
+
+/* Scaling down, desktop to mobile */
+
+/* .hero h1{
+    font-size: 9vw;
+}
+
+@media (max-width:768px){
+    .hero h1{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 500px), (max-height:500px) {
+    .hero{
+        height: 60vh;
+    }
+    .hero h1{
+        font-size: 1.5rem;
+    }
+} */

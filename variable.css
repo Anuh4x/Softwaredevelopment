@@ -1,0 +1,16 @@
+:root{
+    --main-color: lightcoral;
+    --padding-size: 1rem;
+    --bg-color:black;
+    --bg-text:white;
+}
+
+button{
+    background-color: var(--main-color);
+    padding:var(--padding-size);
+}
+
+body{
+    background-color: var(--bg-color);
+    color:var(--bg-text)
+}

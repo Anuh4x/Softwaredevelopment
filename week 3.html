@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First Page</title>
+    </head>
+    <style>
+        .row{
+            display: flex;
+            gap: 20px; /* The space between each child */
+            justify-content: space-around; /* Controls left & right */
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .card{
+            background: lightblue;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            }
+
+        .badge {
+            background-color: green;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+        } 
+
+    </style>
+    <body>
+    <div class="row">
+     <div class="card">
+        <h2>Tittle 1</h2>
+        <p>Description</p>
+        <span class="badge">Sale</span>
+    </div>
+    <div class="card">
+        <h2>Tittle 2</h2>
+        <p>Description</p>
+    </div>
+    <div class="card">
+        <h2>Tittle 3</h2>
+        <p>Description</p>
+    </div>
+
+    </div>
+    </body>
+</html>
